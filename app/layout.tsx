@@ -27,11 +27,11 @@ export default function RootLayout({
     <html lang="en" className={GeistSans.className}>
       <body
         className={cn(
-          'bg-background text-foreground min-h-screen  font-sans antialiased',
-          fontSans.variable
+          'min-h-screen bg-background font-sans text-foreground antialiased',
+          fontSans.variable,
         )}
       >
-        <main className="min-h-screen flex flex-col items-center">
+        <main className="flex min-h-screen flex-col items-center">
           {children}
         </main>
       </body>
