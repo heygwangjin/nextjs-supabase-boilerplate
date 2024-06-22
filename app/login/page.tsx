@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { headers } from 'next/headers';
-import { createClient } from '@/lib/supabase/server';
+import { createClient } from '@/supabase/server';
 import { redirect } from 'next/navigation';
 import { SubmitButton } from './submit-button';
 
